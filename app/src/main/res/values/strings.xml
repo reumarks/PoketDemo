@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PoketDemo</string>
+    <string name="show_fruits">Open Fruit Drawer</string>
+    <string name="close">Close</string>
+    <string name="main_title">Fridge Drawer Simulator</string>
+    <string name="pear_image_description">A simple cartoon pear</string>
+    <string name="select_fruit">Select Fruit</string>
+</resources>
