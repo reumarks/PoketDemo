@@ -1,11 +1,13 @@
 package com.reumarks.poketdemo
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -17,6 +19,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(R.layout.activity_main)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -33,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("InflateParams")
     private fun showBottomSheetDialog() {
         // Create a new BottomSheetDialog and assign the bottom_sheet_layout to its view
         val dialog = BottomSheetDialog(this)
@@ -54,7 +58,7 @@ class MainActivity : AppCompatActivity() {
         // Handle interactions from the other button -- currently just a placeholder
         val selectButton: Button = view.findViewById(R.id.select_button)
         selectButton.setOnClickListener {
-            Toast.makeText(this, "Hello", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Not Implemented", Toast.LENGTH_SHORT).show()
         }
 
         // Display the dialog
