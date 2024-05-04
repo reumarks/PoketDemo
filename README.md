@@ -11,6 +11,11 @@ If the user pressed the button, then a bottom-sheet-dialog will open containing 
 
 The `Close` button simply closes the dialog, while the `Select Fruit` button will print "Not Implemented" to an alert at the bottom of the screen.
 
+<p float="left">
+  <img src="https://github.com/reumarks/PoketDemo/assets/22671898/90f5a062-07ef-4911-840f-5d03b7cc3399" width="200" />
+  <img src="https://github.com/reumarks/PoketDemo/assets/22671898/cc3811f2-68ee-4c2a-95eb-15bc8f655498" width="200" /> 
+</p>
+
 ## Setup Instructions
 You can either run this project through Android Studio or directly install the app to your phone using the [APK file from the releases tab](https://github.com/reumarks/PoketDemo/releases/tag/Main).
 
