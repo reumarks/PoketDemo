@@ -22,7 +22,7 @@ You can either run this project through Android Studio or directly install the a
 - Once the project has finished loading, you should be able to run it on whatever Virtual or Physical devices you have connected to Android Studio by clicking the Green Arrow at the top of the screen.
 
 ### Installing using APK
-- Go to the releases tab of this project and download the (PoketDemo.apk file)[https://github.com/reumarks/PoketDemo/releases/tag/Main]
+- Go to the releases tab of this project and download the [PoketDemo.apk file](https://github.com/reumarks/PoketDemo/releases/tag/Main).
 - Connect your phone to your Computer via USB and enable file transfers between the devices.
 - Copy the .apk file into your phone's download folder (For me, that is `This PC\Pixel 4a\Internal shared storage\Download`).
 - On your phone open the "files" app, go to your downloads folder, and tap on the .apk file you just downloaded.
